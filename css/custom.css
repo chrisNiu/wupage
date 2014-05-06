@@ -7,6 +7,10 @@
   background-color: :#ddd;
 }
 
+.navbar{
+  padding-left: 400px;
+}
+
 footer{
     padding: 2em 0;
     margin: 3em 0;
@@ -64,4 +68,15 @@ footer{
 
 .active .glyphicon{
   color: #cdae51;
+}
+
+.jumbotron2 {
+  padding: 30px;
+  padding-bottom: 310px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
 }
