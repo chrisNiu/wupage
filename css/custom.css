@@ -1,0 +1,71 @@
+/* this is my custom CSS */
+
+/*body{
+  padding-top: 70px
+}*/
+.main{
+  background-color: :#ddd;
+}
+
+.navbar{
+  padding-left: 400px;
+}
+
+footer{
+    padding: 2em 0;
+    margin: 3em 0;
+    color: #666;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.footer2{    
+    color: #999;
+    text-align: center;
+}
+
+.glyphicon{
+	color: #666;
+}
+
+.pull-right.img-responsive{
+	margin: 0 0 1em 1em;
+}
+
+.btn-info{
+	background-color: #cdae51;
+	border-color: #cdae51;
+}
+
+.breadcrumb > li + li:before {
+  content: none;
+}
+
+.navbar-inverse .navbar-toggle {
+  color: white;
+  font-weight: bold;
+  border-color: white;
+}
+
+.navbar-inverse .navbar-toggle{
+  background-color: #ddd;
+  color: #333;
+}
+
+.navbar-inverse .navbar-toggle{
+  color: white;
+}
+
+.navbar-inverse .navbar-toggle{
+  color: #333;
+}
+.tab-pane {
+  border-left: 1px solid #ddd;
+  border-radius: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8em;
+}
+
+.active .glyphicon{
+  color: #cdae51;
+}

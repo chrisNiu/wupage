@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Wesley Yu - Home</title>
+    <title>Wesley Yu - Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
    
     <!-- row 2: navigation -->
     <div class="row">      
-    	<nav class="navbar navbar-default">
+        <nav class="navbar navbar-default">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
                   <span class="sr-only">Toggle navigation</span>
@@ -30,7 +30,7 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav show">
-                    <li class="active"><a href="homepage.html">Home</a></li>                     
+                    <li><a href="homepage.html">Home</a></li>                 
                     <li class="dropdown"><a href="#" data-toggle="dropdown">Team <span class="caret"></span></a>
                       <ul class="dropdown-menu"><!--dropdown menu of Resources-->
                             <li><a href="about-me.html">About Me</a></li>
@@ -39,7 +39,7 @@
                       </ul>                    
                     </li>                    
                     <li><a href="properties.html">Properties</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>                      
+                    <li class="active"><a href="contact-us.html">Contact Us</a></li>                      
                 </ul> 
             </div>    
         </nav>     
@@ -47,24 +47,37 @@
 
     <!-- row 2 -->
     <div class="jumbotron">      
-    	<div class="row">    		
-    		<div class="col-lg-3 ">
-		        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price</h1>
-		        <p>&nbsp;</p>
-		        <p>Address</p>           
-		        <p>More Descriptions</p>
-		        <p>&nbsp;</p>
-		        <p><a href="#" class="btn btn-info">Read more >></a></p>
-	    	</div>
-	    	<div class="col-lg-8 col-lg-pull-2">
-        		<img src="img/house-1.jpg" alt="" class="col-lg-offset-5 img-responsive img-rounded">
-        	</div>
-        </div>
+        <div class="row">
+          <div class="col-lg-6">
+          <h2>Contact</h2>
+          <p class="seperator">Thank you for visiting my web site. Whatever your Real Estate needs, please don't hesitate to contact me!</p>
+
+          <p><strong>Wesley Yu</strong></p>
+          <p>Sutton Group West Coast Realty</p>
+          <p>7547 Cambie Street, Vancouver, BC, V6P 3H6</p>
+          <p>Phone: 778-847-8888</p>
+          <p class="seperator">Email: <a href="mailto:wyu@sutton.com" target="_top">
+              wyu@sutton.com</a></p>
+
+          <p>You may also fill in the form below to send me an instant message, which will assist me in finding you the perfect home. Again, thank you for your interest, and I hope to hear from you soon!</p>
+
+          <form action="contact.php" method="post">
+            <span>Name</span> <input type="text" name="c_name"><br>
+            <span>Email</span> <input type="email" name="c_email"><br>
+            <span>Phone</span> <input type="text" name="c_phone"><br>
+            <span>Message</span> <textarea name="c_message"></textarea><br>
+
+          <input type="submit" value="Send">
+
+          </form>
+
+          </div>
+      </div>
     </div>
     
     <!-- row 3 -->
    <div class="row">
-   	<p>Some Promotion</p>
+    <p>Some Promotion</p>
    </div>
     <!-- row 4 -->
     <footer class="row">
@@ -93,6 +106,16 @@
 
 </div> <!-- end container -->
 
+<!-- CSS -->
+<style>
+    h2 {
+    border-bottom:solid 2px #5D5B5B;
+    color:#5D5B5B;
+  }
+  .seperator{
+    margin-bottom: 1em;
+  }
+</style>
 <!-- javascript -->
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Wesley Yu - Home</title>
+    <title>Wesley Yu - About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,10 +30,10 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav show">
-                    <li class="active"><a href="homepage.html">Home</a></li>                     
-                    <li class="dropdown"><a href="#" data-toggle="dropdown">Team <span class="caret"></span></a>
+                    <li><a href="homepage.html">Home</a></li>                 
+                    <li class="dropdown active"><a href="#" data-toggle="dropdown">Team <span class="caret"></span></a>
                       <ul class="dropdown-menu"><!--dropdown menu of Resources-->
-                            <li><a href="about-me.html">About Me</a></li>
+                            <li class="active"><a href="about-me.html">About Me</a></li>
                             <li><a href="seller.html">Sellers</a></li>
                             <li><a href="buyer.html">Buyers</a></li>                            
                       </ul>                    
@@ -47,8 +47,14 @@
 
     <!-- row 2 -->
     <div class="jumbotron">      
-    	<div class="row">    		
-    		<div class="col-lg-3 ">
+    	<div class="row">    	
+      <div class="col-lg-10" id="textbox">
+        <h2>About Me</h2>
+        <p>Wesley is a proud life-long resident of Vancouver, British Columbia. He brings to the team a Bachelor of Commerce (Real Estate) Degree and real estate appraisal experience. He uses his confidence, credibility, and extensive knowledge in Vancouver real estate market to help his clients whether they are in the buying or selling process. Being fluent in English, Cantonese, and Mandarin, Wesley is able to harmonize Eastern and Western culture. </p>
+        <p>Outside from work, I am an avid athlete and enjoys playing team sports such as soccer, hockey, and basketball. My hobbies include reading, personal growth, investing in real estate, and travelling the world.</p>
+        <p>We look forward to working with you. If you have any questions feel free to call or e-mail.</p>
+      </div>	
+    		<!-- <div class="col-lg-3 ">
 		        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price</h1>
 		        <p>&nbsp;</p>
 		        <p>Address</p>           
@@ -58,7 +64,7 @@
 	    	</div>
 	    	<div class="col-lg-8 col-lg-pull-2">
         		<img src="img/house-1.jpg" alt="" class="col-lg-offset-5 img-responsive img-rounded">
-        	</div>
+        	</div> -->
         </div>
     </div>
     
@@ -93,6 +99,15 @@
 
 </div> <!-- end container -->
 
+<!-- CSS -->
+<style>
+  #textbox>p {
+    font-size:19px;
+  }
+  #textbox>h2 {
+    border-bottom:solid 2px #5D5B5B;
+  }
+</style>
 <!-- javascript -->
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
